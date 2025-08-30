@@ -1,0 +1,126 @@
+# PowerShell .gitignore
+# Compiled PowerShell files
+*.ps1.exe
+*.ps1.dll
+
+# PowerShell execution policy files
+*.ps1xml.tmp
+
+# PowerShell module cache
+ModuleAnalysisCache.db
+
+# PowerShell ISE settings
+*.ise
+*.psise
+
+# PowerShell profiles that shouldn't be shared
+profile.ps1
+*_profile.ps1
+
+# Log files
+*.log
+*.txt
+logs/
+Logs/
+
+# Sensitive configuration files
+*.config
+*.xml
+*.json
+config/
+configs/
+
+# Credentials and secrets
+*.cred
+*.credential
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+certs/
+credentials/
+secrets/
+
+# Microsoft Graph tokens and cache
+*.token
+*.cache
+TokenCache*
+MSALCache*
+.azure/
+.graph/
+
+# PowerShell Desired State Configuration
+*.mof
+*.meta.mof
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Test results
+TestResults/
+*.TestResults.xml
+Pester*
+*.coverage.xml
+
+# Package management
+packages/
+*.nupkg
+*.zip
+
+# Build artifacts
+bin/
+obj/
+build/
+dist/
+
+# Environment specific
+.env
+.env.local
+.env.development
+.env.production
+env/
+venv/
+
+# Documentation build
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Windows PowerShell specific
+$RECYCLE.BIN/
+*.lnk
+
+# Exchange and Office 365 specific
+*.ost
+*.pst
+
+# Azure DevOps
+.azure-pipelines/
+
+# GitHub specific
+.github/workflows/secrets.yml
+.github/secrets.yml
